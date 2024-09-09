@@ -1,0 +1,191 @@
+.navbar{
+    background-color:none;
+
+}
+/* 
+RITEEK */
+.navbar-brand{
+    color: aliceblue;
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+
+
+
+.navbar-brand:hover{
+    color:aliceblue;
+    text-decoration:none;
+   
+    
+}
+
+body{
+    background-image: url("photoo.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size:cover;
+    background-position: center;  
+    /* background-repeat: no-repeat ; */
+
+
+}
+
+
+
+
+
+
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+   
+}
+
+.card{
+    height: 50vh;
+    width: 50%;
+    border-width:1px;
+    margin: 250px 30px;
+    background: none; 
+    border-radius: 5px;
+
+}
+ .card-body{
+    color: whitesmoke;
+    font-size: medium;
+}
+
+
+
+.card1{
+    /* height: 50vh;
+    width: 50%; */
+    border-width:1px;
+    margin: 250px 30px;
+    background: none;
+
+
+}
+ .card-body{
+    color: whitesmoke;
+    font-size: medium;
+    
+}
+
+
+
+.card{
+    /* height: 50vh;
+    width: 50%; */
+    border-width:1px;
+    margin: 250px 30px;
+    background: none;
+
+
+}
+ .card-body{
+    color: whitesmoke;
+    font-size: medium;
+
+}
+.card-img-top{
+    height: 200px;
+    object-fit: cover;
+}
+
+
+.card-img-top{
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-img-top{
+    height: 200px;
+    object-fit: cover;
+
+}
+
+ul li a nav-link active{
+    color: aliceblue;
+}
+
+/* .card-title{
+    text-align: center;
+}
+.card-text{
+    text-align: center;
+} */
+
+.col-md-4{
+    text-align: center;
+    /* padding: 10px; */
+}
+
+.nav-link{
+    color: aliceblue;
+    transition: ease-in-out 0.30s; 
+}
+ul li a:nav-link{
+    color: aliceblue;
+}
+
+.nav-link:hover{
+    color:white;
+    scale: 1.2;
+    text-decoration:overline;
+}
+
+.navbar-brand:hover{
+    color: white;
+   
+}
+.card-img-top{
+    border-radius: 2px;
+}
+
+/* for placing nav contents to center*/
+.navbar-nav{
+    display: flex;
+    margin: auto;
+    /* padding: 5px; */
+    justify-content: center;
+}
+
+
+/* Front page details 
+
+WELCOME TO */
+h4{
+    display: flex;
+    margin-top: 200px;
+    /* padding: 5px; */
+    justify-content: center;
+    color: aliceblue;
+    text-transform:uppercase;
+    font-size:40px;
+}
+
+h1{
+    display: flex;
+    margin-top: 250px;
+    /* padding: 5px; */
+    justify-content: center;
+    color: aliceblue;
+    /* text-transform:uppercase; */
+    font-size:100px;
+    font-style:oblique;
+}
+
+h5{
+    display: flex;
+    margin-top:20px;
+    justify-content:center; 
+    color: aliceblue;
+    /* text-transform: uppercase; */
+    padding:0px;
+    
+}

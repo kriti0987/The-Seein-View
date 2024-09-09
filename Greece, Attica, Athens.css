@@ -1,0 +1,99 @@
+.navbar{
+    background-color:none;
+
+}
+
+
+.navbar-brand{
+    color: aliceblue;
+    padding-left: 20px;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+
+
+
+
+/* for bg image*/
+body{
+    background-image: url("athens\ greece\ bg.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;    
+    background-repeat: no repeat ;
+    /* transition:ease-in-out; */
+}
+*{
+    margin: 0%;
+    padding: 0%;
+
+   
+}
+
+/*For Navigation bar to get white color*/
+.nav-link{
+    color: aliceblue;
+    transition: ease-in-out 0.30s; 
+}
+ul li a:nav-link{
+    color: aliceblue;
+}
+
+.nav-link:hover{
+    color:white;
+    scale: 1.2;
+    text-decoration:overline;
+}
+
+.navbar-brand:hover{
+    color: white;
+   
+}
+
+/* for placing nav contents to center*/
+.navbar-nav{
+    display: flex;
+    margin: auto;
+    padding: 5px;
+}
+
+/*tag selector
+
+Attica, Athens*/
+h1{
+    color: aliceblue;
+    /* margin: 75px; */
+    margin-top: 150px;
+    margin-left: 20px;
+    font-size: 80px;
+
+}
+
+/* Greece*/
+
+h5{
+    color: aliceblue;
+    /* margin: 75px;
+    padding: 2px; */
+    margin-left: 25px;
+    font-size: 30.5px;
+}
+/*Inside context css*/
+
+h3{
+    color: aliceblue;
+    /* margin-top: 2px; */
+    font-size:large;
+    margin-left: 25px;
+    text-align: left;
+    padding: 10px;
+}
+
+.card{
+    background: none ;
+    color:white;
+     /* opacity: 0.4; */
+      border:solid;
+     color:aliceblue;}
